@@ -26,6 +26,14 @@ html {
   text-align: center;
 }
 
+.legend i {
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
 #leg {
     float: right;
     text-align: left;
