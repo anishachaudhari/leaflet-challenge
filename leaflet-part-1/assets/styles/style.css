@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+#geoMap,
+body,
+html {
+  height: 90%;
+  padding-top: 15px;
+}
+
+.leaflet-popup-content {
+  text-align: center;
+}
+
+.legend {
+  color: #555;
+  padding: 6px 8px;
+  font: 16px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+#leg {
+    float: right;
+    text-align: left;
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 3px;
+}
+
+#ten {
+    background-color: #ffffd4;
+}
+#tenplus {
+    background-color: #fee391;
+}
+#thirty {
+    background-color: #fec44f;
+}
+#fifty {
+    background-color: #fe9929;
+}
+#seventy {
+    background-color: #d95f0e;
+}
+#ninety {
+    background-color: #993404;
+}
+
